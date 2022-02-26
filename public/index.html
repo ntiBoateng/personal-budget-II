@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Envelopes API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1> Personal Budget - Manage your finance!</h1>
+  <p class="description">The personal budget application is a tool that helps manage our earnings. It is a simple and easy tool for allocating funds towards expenses such as glocceries, transportation, tuition and so on. The idea is basically to prevent the user from overspending. The application allows users to create envelopes or items to spend on. Users then allocate fund for individual envelopes, and anytime a user spends the amount allocated in an envelope, the app restricts the user from further spending on the item until another allocation is done.
+  User would have to decide how much to spend on each category and then take that amount in cash and place it into an envelope. Then, only spend what's available in that envelope for the category's bills or purchases.</p>
+  <p class="info-links">First create, update or see all envelopes</p>
+  <nav>
+    <a href="./envelope/add-envelope.html">Create a New Envelope</a>
+    <a href="./envelope/update-envelope.html">Update an Envelope</a>
+    <a href="./envelope/delete-envelope.html">Delete an Envelope</a>
+  </nav>
+  <p class="info-links">Transactions designated envelope from which to remove funds</p>
+  <nav>
+    <a href="./transaction/get-transaction.html">Fetch all Transactions</a>
+    <a href="./transaction/add-transaction.html">Create a New Transaction</a>
+    <a href="./transaction/delete-transaction.html">Delete a Transaction</a>
+  </nav>
+  <h2>Get Envelopes</h2>
+  <div class="request-buttons">
+    <div>
+      <button id="fetch-enveloppes">Fetch all envelopes</button>
+    </div>
+  </div>
+  <div id="enveloppe-container">
+    
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
